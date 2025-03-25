@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Social Links Challenge Site](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/ProfessoraBianca/SocialLinksChallenge)
+- Live Site URL: [Social Links Challenge Site](https://social-links-challenge-sage.vercel.app/)
 
 ## My process
 
