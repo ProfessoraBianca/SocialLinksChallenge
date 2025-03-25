@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    text-decoration: none;
+    list-style: none;
+    color: hsl(0, 0%, 100%);
+    white-space: nowrap;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    
+}
+.main {
+
+
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 2rem; 
+    padding-bottom: 2.5rem;
+    justify-content: center;
+
+}
+img {
+    display: block;
+    border-radius: 50%;
+    width: 5rem;
+    margin: auto;
+
+}
+img:hover {
+    transform: scale(2);
+    box-shadow: 1px 1px 5px hsla(75, 93.60%, 56.90%, 0.33);
+}
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    
+
+}
+h2 {
+
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    line-height: 1rem;
+
+}
+h3 {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: hsla(0, 0.00%, 100.00%, 0.72);
+    margin: 1.5rem 1rem;
+}
+.linksList {
+    display: grid;
+    row-gap: 1rem;
+}
+a {
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    padding: 0.7rem;
+    width: 100%;
+    margin: auto;
+}
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: url('/images/icons8-hand-cursor-32.png') , pointer;
+}
+
+@media only screen and (max-width: 380px) {
+    .main {
+        padding: 1rem;
+    }
+    img {
+        margin-top: 0;
+    }
+  }
